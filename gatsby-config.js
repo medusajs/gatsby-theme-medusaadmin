@@ -19,7 +19,7 @@ module.exports = {
       options: {
         name: `medusa-admin`,
         short_name: `medusa`,
-        icon: `src/images/logo.svg`,
+        icon: `src/assets/svg/logo.svg`,
       },
     },
     `gatsby-plugin-sharp`,

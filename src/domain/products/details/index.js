@@ -1,18 +1,16 @@
-import React from "react"
-import { useForm } from "react-hook-form"
-import { Flex } from "rebass"
-import ReactJson from "react-json-view"
 import { navigate } from "gatsby"
-
-import Information from "./information"
-import Variants from "./variants"
-import Images from "./images"
-
-import useMedusa from "../../../hooks/use-medusa"
-import NotFound from "../../../components/not-found"
+import React from "react"
+import ReactJson from "react-json-view"
+import { Flex } from "rebass"
 import Card from "../../../components/card"
-import Options from "./options"
+import NotFound from "../../../components/not-found"
+import useMedusa from "../../../hooks/use-medusa"
+import Images from "./images"
+import Information from "./information"
 import InventoryManager from "./inventory"
+import Variants from "./variants"
+
+
 
 const ProductDetail = ({ id }) => {
   const {
