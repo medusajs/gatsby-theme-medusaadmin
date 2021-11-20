@@ -1,7 +1,7 @@
 {
   "name": "gatsby-theme-medusa-admin",
   "description": "Admin system to manage Medusa Stores",
-  "version": "1.0.1",
+  "version": "1.0.2-canary.0",
   "author": "@medusajs",
   "keywords": [
     "gatsby",
