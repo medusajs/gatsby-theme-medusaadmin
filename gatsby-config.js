@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Medusa Admin`,
-    description: `The best ecommerce software.`,
+    description: `Open-source composable commerce`,
     author: `@medusajs`,
   },
   plugins: [
@@ -19,7 +19,7 @@ module.exports = {
       options: {
         name: `medusa-admin`,
         short_name: `medusa`,
-        icon: `src/assets/svg/logo.svg`,
+        icon: require.resolve(`./src/assets/svg/logo.svg`),
       },
     },
     `gatsby-plugin-sharp`,
